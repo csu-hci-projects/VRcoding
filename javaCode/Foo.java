@@ -1,24 +1,16 @@
-public class Bar extends Foo{
+import java.util.ArrayList;
+
+public class Foo {
+
+	public ArrayList bins = new ArrayList<Bin>();
 	
-	public Bar (){
+	
+	public void Doo () {
 		
-	}
-	
-	public void Doo() {
-		for(int i = 0;i < super.bins.size();i = i + 3) {
+		for(int i = 0; i < bins.size();i++ ){
 			
 			((Bin) bins.get(i)).Pop();
-			
+				
 		}
-		for(int i = 1;i < super.bins.size();i = i + 3) {
-			
-			((Bin) bins.get(i)).Pop();
-			
-		}
-		for(int i = 2;i < super.bins.size();i = i + 3) {
-			
-			((Bin) bins.get(i)).Pop();
-			
-		}	
 	}
 }
