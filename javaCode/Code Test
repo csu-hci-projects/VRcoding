@@ -22,19 +22,33 @@ The test does not score on issues of capitalization
   c. Doo(),pop()
   d. pop(),id()
 
-4) The Doo method call the pop method of all of its contents?
+4) The Doo method calls the pop method on all of its contents.
   a. True
   b. False
 
-5) 
+5) bin extends the class ____.
 
-6)
+  a. foo
+  b. bap
+  c. Bar
+  d. none of the above
 
-7)
+6) the bap class overwrites a method.
+  a. true
+  b. false 
 
-8)
+7) The Bar class contains what variable?
+  a. an inherited integer
+  b. a bin object
+  c. an inherited ArrayList
 
-9)
+8) The Bar class contains a constructor.
+  a. true
+  b. false
+
+9) the foo class contains a constructor.
+  a. true
+  b. false
 
 10) if there are ten elements in bins of a Foo and their indexes in bins are the same as their id what order will they be reached in. Write their id's below. 
 
